@@ -1,0 +1,9 @@
+[versions]
+springBootPlugin = "3.3.5"
+springDependencyManagementPlugin = "1.1.6"
+lombok = "1.18.34"
+
+[libraries]
+lombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
+springBootPlugin = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "springBootPlugin" }
+springDependencyManagementPlugin = { module = "io.spring.dependency-management:io.spring.dependency-management.gradle.plugin", version.ref = "springDependencyManagementPlugin" }
